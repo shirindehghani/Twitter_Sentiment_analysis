@@ -1,0 +1,20 @@
+{
+  "bos_token": "<s>",
+  "cls_token": "<s>",
+  "eos_token": "</s>",
+  "mask_token": {
+    "__type": "AddedToken",
+    "content": "<mask>",
+    "lstrip": true,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "name_or_path": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+  "pad_token": "<pad>",
+  "sep_token": "</s>",
+  "sp_model_kwargs": {},
+  "special_tokens_map_file": "/root/.cache/huggingface/hub/models--cardiffnlp--twitter-xlm-roberta-base-sentiment/snapshots/f3e34b6c30bf27b6649f72eca85d0bbe79df1e55/special_tokens_map.json",
+  "tokenizer_class": "XLMRobertaTokenizer",
+  "unk_token": "<unk>"
+}

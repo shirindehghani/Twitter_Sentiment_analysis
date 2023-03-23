@@ -1,7 +1,4 @@
 Twitter Sentiment Analysis
-
-Metodata
-
 #########################################################################################################################
 
 The model that used in this task is "XLM-t-roberta-sentiment" from huggingface hub!
@@ -14,8 +11,8 @@ needed python version>=3.7.14
 
 labels are encoding as:
 
-  0->Negative(sad)
-  1->Neutral(meh)
+  0->Negative(sad) //
+  1->Neutral(meh) //
   2->Positve(happy)
 
 Note that if you want to train new model on "XLM-t-roberta-sentiment" you should use same encoding for sentiment labels!

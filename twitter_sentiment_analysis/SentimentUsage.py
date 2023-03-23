@@ -2,6 +2,7 @@ import pandas as pd
 from log_handler.Setup import logger
 from sklearn.model_selection import train_test_split
 from transformers import AutoModelForSequenceClassification
+from tqdm import tqdm
 
 import json
 import warnings
@@ -14,6 +15,7 @@ from twitter_sentiment_analysis.load import load_tokenizer_model
 
 
 warnings.filterwarnings('ignore')
+tqdm.pandas()
 
 tokenizer, model= load_tokenizer_model()
 
